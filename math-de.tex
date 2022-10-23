@@ -1,0 +1,23 @@
+\usepackage[thmmarks,amsmath,hyperref,noconfig]{ntheorem} 
+% erlaubt es, Sätze, Definitionen etc. einfach durchzunummerieren.
+\newtheorem{satz}{Satz}[section] % Nummerierung nach Abschnitten
+\newtheorem{proposition}[satz]{Proposition}
+\newtheorem{korollar}[satz]{Korollar}
+\newtheorem{lemma}[satz]{Lemma}
+\newtheorem{vermutung}[satz]{Vermutung}
+\newtheorem{semantics}{Semantics}[section] % count with sections.
+
+
+\theorembodyfont{\upshape}
+\newtheorem{beispiel}[satz]{Beispiel}
+\newtheorem{bemerkung}[satz]{Bemerkung}
+\newtheorem{definition}[satz]{Definition} %[section]
+\newtheorem{algorithmus}[satz]{Algorithmus}
+
+\theoremstyle{nonumberplain}
+\theoremheaderfont{\itshape}
+\theorembodyfont{\normalfont}
+\theoremseparator{.}
+\theoremsymbol{\ensuremath{_\Box}}
+\newtheorem{beweis}{Beweis}
+\newtheorem{beweiss}{Beweisskizze}
